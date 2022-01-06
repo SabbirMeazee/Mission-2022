@@ -1,17 +1,37 @@
-section{
+body{
+    margin: 0 auto;
+}
+#portfolio_part{
     display: flex;
 }
 .half_width{
     width: 50%;
     padding: 8% 5% 2% 8%;
 }
+.half_width1{
+ width: 50%;
+ padding: 2% 5% 2% 8%;
+
+}
 h1{
     font-size: 45px;
     font-family: 'Merriweather', serif;
 }
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: 700;
+
+}
 h6{
 
     font-family: 'Merriweather', serif;
+
+}
+p{
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    color: rgb(49, 49, 59);
 
 }
 .blue{
@@ -29,6 +49,104 @@ h6{
     margin-top: 48px;
     margin-right: 10px;
 }
-.half_width img{
-    width: 70%;
+.half_width p{
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+    line-height: 30px;
+}
+.half_width1 img{
+    width: 90%;
+}
+.margin_button{
+    margin: 50px 0px;
+
+}
+.explore_button{
+    text-decoration: none;
+    font-size: 16px;
+    background-color: tomato;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.mission_head{
+    text-align: center;
+}
+.skill_part{
+    display: flex;
+}
+.skill1{
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgb(169, 149, 224);
+    margin: 0px 50px;
+    padding: 10px 25px;
+}
+.skill1 h4{
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+
+}
+
+.skill1 img{
+    width: 40%;
+}
+.skill3{
+    background-color: rgb(107, 176, 233);
+}
+.skill2{
+    background-color: rgb(248, 245, 77);
+}
+.develop_part{
+    display: flex;
+    margin: 80px 50px;
+}
+.develop_part img{
+    width: 30%;
+    margin-right: 60px;
+}
+.develop_right_part{
+    margin-top: 40px;
+}
+.develop_right_part p{
+    line-height: 30px;
+    margin-right: 70px;
+     
+}
+footer{
+    background-color: rgb(29, 25, 25);
+    text-align: center;
+}
+footer h5{
+    padding-top: 30px;
+    font-size: 30px;
+    color: rgb(116, 190, 209);
+}
+footer p{
+    color: rgb(230, 222, 212);
+    font-size: 14px;
+    padding-bottom: 30px;
+    
+}
+.red_color{
+    color: rgb(219, 77, 21);
+}
+.features{
+    text-align: center;
+    margin-top: 120px;
+}
+.subscribe{
+    text-align: center;
+    font-size: 34px;
+   
+}
+.btn{
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    padding: 5px 25px;
+    border-radius: 10px;
+    margin: 20px 10px;
+
 }
